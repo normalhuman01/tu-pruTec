@@ -1,0 +1,15 @@
+.li {
+  display: flex;
+  flex-direction: column;
+  --font-size-link-menu: .9rem;
+}
+.link {
+  padding: .5rem 1rem;
+  font-size: var(--font-size-link-menu);
+}
+.link + * {
+  display: none !important;
+}
+.li:hover > .link + * {
+  display: flex !important;
+}

@@ -1,0 +1,13 @@
+:root {
+  --color-blue: #0247A2;
+  --color-gray: #9F9F9F;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #46464d;
+}
